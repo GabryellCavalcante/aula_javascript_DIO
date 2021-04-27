@@ -1,3 +1,29 @@
+/*
+var d = new Date();
+console.log(d.getDate(),d.getMonth(),d.getFullYear());
+*/
+/*
+var idade = prompt("Qual sua idade ?");
+if (idade >= 18){
+    alert ("maior de idade");
+}else{
+    alert ("menor de idade");
+};
+*/
+/*
+var count = 0;
+while (count < 5){
+    console.log(count);
+    count++;
+};
+*/
+/*
+var count;
+
+for (count=0; count <=5; count++){
+    alert (count);
+}
+*/
 //var nome = "Gabryell Cavalcante";
 //var n1 = 25;
 //var n2 = 10;
@@ -21,6 +47,8 @@
 
 //console.log(lista.reverse());
 //console.log(lista.length);
+//console.log(lista.lowerCase);
+//console.log(lista.upperCase);
 //console.log(lista[0]);
 //console.log(lista.toString());
 //console.log(lista.join(" | "));
