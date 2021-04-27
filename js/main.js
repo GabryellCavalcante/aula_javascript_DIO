@@ -10,13 +10,10 @@ function page(){
 }
 
 function trocar(elemento){
-    //document.getElementById("mousemove")
     elemento.innerHTML = "Obrigado por passar o mouse";
-    //alert ("trocar texto");
 }
 
 function voltar(elemento){
-    //document.getElementById("mousemove")
     elemento.innerHTML = "Passe o mouse aqui";
 } 
 
