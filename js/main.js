@@ -1,3 +1,52 @@
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+    console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar");
+}
+
+function page(){
+    window.open("http://www.google.com");
+    window.location.href = "http://www.google.com"
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove")
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //alert ("trocar texto");
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove")
+    elemento.innerHTML = "Passe o mouse aqui";
+} 
+
+function load(){
+    alert("Pagina Carregada");
+}
+
+function functionChange(elemento){
+    console.log(elemento.value)
+}
+
+/*
+function soma (n1,n2){
+    return n1 + n2;
+}
+
+var validar;
+function validaIdade(idade){
+    validar;
+    if (idade >= 18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade ?")
+console.log(validaIdade(idade));
+*/
 /*
 var d = new Date();
 console.log(d.getDate(),d.getMonth(),d.getFullYear());

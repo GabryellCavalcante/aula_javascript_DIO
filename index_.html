@@ -8,7 +8,15 @@
     <script type="text/javascript" src="js/main.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>PAGE 002</h1>
+<body onload="load()">
+    <button typo="button" onclick="clicou()"> Clique Aqui </button>
+    <p id="agradecimento" onclick="page()"></p>
+    <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o Mouse aqui</p>
+    <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o Mouse aqui</p>
+    <select onchange="functionChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
 </body>
 </html>
